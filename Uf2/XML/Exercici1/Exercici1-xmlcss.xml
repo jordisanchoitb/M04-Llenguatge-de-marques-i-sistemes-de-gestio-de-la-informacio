@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="Exercici1.css"?>
+<Personas>
+    <persona>
+        <Nom>Jordi Sancho</Nom>
+        <Contenendor>
+            <Departament>Dept. Informatica</Departament>
+            <Moduls>M04, M2, M8</Moduls>
+        </Contenendor>
+    </persona>
+</Personas>

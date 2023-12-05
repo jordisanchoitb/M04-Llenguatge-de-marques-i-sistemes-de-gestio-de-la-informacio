@@ -1,0 +1,289 @@
+:root {
+    --naranja: #ffc045;;
+    --azul: #0a91ab;
+    --negro: #000000;
+    --gris: #8A8070;
+    --blanco: #ffffff;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+}
+
+header {
+    background-color: var(--azul);
+    color: var(--naranja);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 0rem;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: var(--naranja);
+    padding: 0.2%;
+    top: 0px;
+    position: sticky;
+}
+
+.nava {
+    text-decoration: none;
+    color: var(--negro);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nava:hover {  
+    background-color: #0a90ab9c;
+}
+
+.navul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.ralla {
+    border: 2px solid var(--naranja);
+    width: 8%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.imgmenu {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 1%;
+}
+
+.menu {
+    text-align: center;
+    margin: 1rem;
+}
+
+#Videojuegos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divVideojocs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article.articleVideojocs {
+    width: 400px;
+    height: 450px;
+    border: 2px solid var(--naranja);
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img.articleVideojocs {
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.h2videojocs {
+    color: var(--azul);
+    text-transform: uppercase;
+    width: 100%;
+    margin-left: 2rem;
+}
+
+.h3videojocs {
+    color: var(--naranja);
+    margin-top: 0%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+}
+
+.pvideojocs {
+    color: var(--gris);
+    margin-top: 0%;
+    margin-left: 1.5%;
+    margin-bottom: 2%;
+}
+
+.avideojocs {
+    text-decoration: none;
+    color: var(--negro);
+    font-weight: bold;
+    border: 1px solid var(--naranja);
+    background-color: var(--naranja);
+    border-radius: 5px;
+    padding: 0.2rem 0.1rem;
+    align-self: flex-end;
+    margin: 0.5rem;
+}
+
+.divavideojocs {
+    display: flex;
+    margin-left: 20rem;
+}
+.divAsideITrucos {
+    display: flex;
+}
+#asidepagprincipal {
+    order: 2;
+}
+#Trucos {
+    width: 25%;
+    background-color: #0a90ab61;
+    margin-right: 1rem;
+}
+.h2Trucos {
+    color: var(--azul);
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.h2Noticias {
+    color: var(--azul);
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.trucosul {
+    list-style-type: none;
+}
+
+.trucosa {
+    text-decoration: none;
+    color: var(--azul);
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.trucosli {
+    margin-bottom: 1rem;
+}
+#Noticias {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.divnoticias {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.imgnoticias {
+    width: 500px;
+    height: 300px;
+}
+
+.articlenoticias {
+    width: 500px;
+    height: 450px;
+    margin-right: 2rem;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.h3noticias {
+    color: var(--naranja);
+    margin-bottom: 0%;
+}
+
+.pnoticias {
+    color: var(--gris);
+    margin-top: 1%;
+}
+
+.divanoticias {
+    background-color: var(--naranja);
+    border: 1px solid var(--naranja);
+    border-radius: 4px;
+    text-align: end;
+    padding: 0.2rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    margin-bottom: 0.3rem;
+    position: relative;
+    top: -32px;
+}
+
+.anoticias {
+    color: rgb(70, 0, 123);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.anoticias:hover {
+    font-size: large;
+}
+
+#Ranking {
+    margin-top: 0%;
+    background-color: #8A8070;
+    padding-bottom: 1rem;
+}
+
+.h2ranking {
+    color: var(--naranja);
+    padding-top: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0%;
+}
+
+.imgranking {
+    height: 128px;
+    width: 128px;
+    border-radius: 128px;
+    margin-left: 35px;
+}
+
+.divranking {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.articleranking {
+    width: 200px;
+}
+
+.h3ranking {
+    text-align: center;
+}
+
+.pranking {
+    text-align: center;
+    margin: 0.2rem;
+}
+
+.imgfooter {
+    width: 32px;
+    height: 32px;
+}
+
+.footer {
+    border-top: 2px solid var(--negro);
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+}

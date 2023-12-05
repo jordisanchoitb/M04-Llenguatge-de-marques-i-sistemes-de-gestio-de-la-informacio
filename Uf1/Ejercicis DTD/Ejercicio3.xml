@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula [
+  <!ELEMENT matricula (ciclo,alumnos)>
+  <!ELEMENT ciclo (#PCDATA)>
+  <!ELEMENT alumnos (alumno)+>
+  <!ELEMENT alumno (nombre,year,asignaturas)>
+
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT year (#PCDATA)>
+  <!ELEMENT asignaturas (asignatura)+>
+  <!ELEMENT asignatura (#PCDATA)>
+]>
+
+<matricula>
+  <ciclo>Imagen y sonido</ciclo>
+  <alumnos>
+    <alumno>
+      <nombre>Adria</nombre>
+      <year>18-10-2004</year>
+      <asignaturas>
+        <asignatura>Imagen</asignatura>
+        <asignatura>Sonido</asignatura>
+        <asignatura>Video</asignatura>
+        <asignatura>Microfonos</asignatura>
+      </asignaturas>
+    </alumno>
+    <alumno>
+      <nombre>Adrian</nombre>
+      <year>29-2-2005</year>
+      <asignaturas>
+        <asignatura>Imagen</asignatura>
+        <asignatura>Sonido</asignatura>
+        <asignatura>Video</asignatura>
+        <asignatura>Microfonos</asignatura>
+      </asignaturas>
+    </alumno>
+  </alumnos>
+</matricula>

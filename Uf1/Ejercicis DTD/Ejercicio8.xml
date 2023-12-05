@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca [
+    <!ELEMENT biblioteca (libro*, usuario*, prestamo*)>
+    <!ELEMENT libro EMPTY>
+        <!ATTLIST libro ISBN ID #REQUIRED titulo CDATA tipo (clasico | novela | teatro) "clasico">
+    <!ELEMENT usuario EMPTY>
+        <!ATTLIST usuario DNI ID #REQUIRED>
+    <!ELEMENT prestamo EMPTY>
+        <!ATTLIST prestamo DNI IDREF #REQUIRED ISBN IDREFS #REQUIRED >
+]>
+
+<biblioteca>
+  	<libro ISBN="A978849759251" titulo="La Celestina" tipo=”clasico”/>
+  	<libro ISBN="A8481301264 " titulo="El nombre de la Rosa"/>
+	<libro ISBN="A9788497592581" titulo="Don Juan" tipo=”teatro”/>
+  	
+  	<usuario DNI="Z47673211" nombre="Antonio"/>
+  	<usuario DNI="Z47673212" nombre="Maria"/>
+  	
+   	<prestamo DNI="Z47673211" ISBN="A8481301264 A9788497592581"/>
+</biblioteca>

@@ -1,0 +1,55 @@
+.title {
+    background-color: black;
+    color: white;
+    height: 5rem;
+    padding: 0.1rem 1rem;
+    margin-bottom: 0.3rem;
+}
+.subtitle {
+    display: flex;
+}
+sub {
+    width: 50%;
+    font-size: x-large;
+    background-color: grey;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    margin-top: 0.3rem;
+}
+
+footer {
+    background-color: rgb(186, 186, 186);
+}
+.menu {
+    background-color: rgb(186, 186, 186);
+    width: 25%;
+    font-size: larger;
+    text-align: center;
+}
+footer {
+    padding: 2rem;
+}
+
+.seccion {
+    width: 100%;
+    display: flex;
+}
+
+figure {
+    background-color: rgb(132, 132, 132);
+    width: 200px;
+    height: 200px;
+    margin-right: 0.5rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.article1 {
+    width: auto;
+}
+.article2 {
+    width: auto;
+}

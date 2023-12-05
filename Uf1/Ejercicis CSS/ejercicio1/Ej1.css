@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+    font-size: 2em;
+}
+h2 {
+    color: gray;
+    text-decoration: underline;
+}
+p {
+    font-style: italic;
+}
+span {
+    color: rgb(255, 51, 0);
+}
+ol, ul {
+    list-style-type: upper-roman;
+}

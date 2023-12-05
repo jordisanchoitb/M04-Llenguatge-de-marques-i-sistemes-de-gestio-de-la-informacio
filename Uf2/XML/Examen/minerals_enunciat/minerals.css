@@ -1,0 +1,28 @@
+h1 {
+    color: purple;
+}
+
+article {
+    width: 100%;
+}
+.mineral {
+    display: flex;
+}
+.pmineral {
+    border: 2px solid black;
+    padding: 0.2rem;
+    background-color: blueviolet;
+    width: 20%;
+}
+tr, td{
+    border: 2px solid black;
+    width: 50%;
+    background-color: rgba(137, 43, 226, 0.267);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tdimg {
+    text-align: center;
+}

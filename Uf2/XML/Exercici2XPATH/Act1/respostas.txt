@@ -1,0 +1,15 @@
+1. Els llibres escrits per Maria Barbal
+/libreria/libro[autor='Maria Barbal']/titulo/text()
+
+2. Els llibres amb un preu inferior a 30.00 €
+/libreria/libro [precio < 30.00] 
+
+3. Els llibres amb data de publicació
+/libreria/libro[data_publicacio]
+
+4. Tots els títols de la llibreria
+/libreria/libro/titulo
+
+5. L'últim llibre de la llista de llibres
+/libreria/libro[last()]
+

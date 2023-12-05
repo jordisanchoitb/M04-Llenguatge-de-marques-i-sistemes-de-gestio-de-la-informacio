@@ -1,0 +1,43 @@
+div {
+    border: solid 1px black;
+}
+
+.figure1 {
+    height: 10rem;
+    width: 10rem;
+}
+
+.figure2 {
+    border: solid 3px black;
+    padding: 1rem;
+}
+
+.figure3 {
+    margin: 1rem;
+}
+
+.figure4 {
+    border: solid 1px rgb(0, 229, 255);
+    border-radius: 10px;
+    width: 20rem;
+    height: 5rem;
+    padding: 1%;
+}
+
+.figure5 {
+    padding-left: 1rem;
+}
+
+.figure6 {
+    margin-left: 2rem;
+}
+
+.figure7 {
+    border: solid 1px rgb(0, 255, 225);
+    border-radius: 20px;
+    height: 5rem;
+    width: 5rem;
+    margin: 2rem auto;
+    padding: 1rem;
+
+}

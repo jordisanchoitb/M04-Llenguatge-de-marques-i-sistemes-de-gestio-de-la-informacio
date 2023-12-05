@@ -1,0 +1,25 @@
+persona {
+    padding: 2rem;
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(-255, 0, 0);
+    border-radius: 10px;
+    width: 500px;
+}
+Nom {
+    font-size: 80px;
+    margin-bottom: 1rem;
+}
+
+Contenendor {
+    display: flex;
+    flex-direction: column;
+}
+
+Departament {
+    font-weight: bolder;
+    font-size: x-large;
+    margin-bottom: 0.5rem;
+}
+

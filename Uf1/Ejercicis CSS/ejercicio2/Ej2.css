@@ -1,0 +1,65 @@
+h1 {
+    color: red;
+    font-size: 2em;
+}
+h2 {
+    color: gray;
+    text-decoration: underline;
+}
+p {
+    font-style: italic;
+}
+span.franky {
+    background-color: green;
+    color: gray;
+}
+span.avi {
+    background-color: aqua;
+}
+span.boris {
+    background-color: rgb(148, 255, 67);
+    color: red;
+}
+span.tony {
+    background-color: red;
+    color: rgb(148, 255, 67);
+}
+ol, ul {
+    list-style-type: upper-roman;
+}
+
+a {
+    color: rgb(89, 177, 0);
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgb(172, 172, 172);
+}
+
+h2 ~ h2 {
+    color: rgb(134, 134, 134);
+}
+h2 ~ h2 ~ h2  {
+    color: rgb(92, 92, 92);
+}
+h2 ~ h2 ~ h2 ~ h2 {
+    color: black;
+}
+
+#benicio {
+    background-color: green;
+    color: gray;
+}
+#denis {
+    background-color: rgb(0, 204, 255);
+    color: blue;
+}
+#vinnie {
+    background-color: red;
+    color: rgb(135, 212, 0);
+}
+#rade {
+    background-color: rgb(113, 199, 0);
+    color: red;
+}

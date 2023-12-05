@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi pagina web de audios</title>
+        <meta charset="UTF-8"> 
+        <meta name="author" content="Jordi Sancho">
+        <meta name="description" content="Mi primera pagina web una table">
+        <link rel="icon" type="image/gif" href="../src/rikka120x120.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table,tr,td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>M04 - Lenguaje de Marcas</h1>
+            <h2> UF1 - HTML5 y CSS</h2>
+            <img src="../src/rikka.gif" alt="Gif rikka">
+            <nav>
+                <ul>
+                    <li><a href="#Seccion1">Mi table</a></li>
+                    <li><a href="#Seccion2">Volver pagina principal</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="Seccion1">
+                <h2>Mi table</h2>
+                <article>
+                    <table>
+                        <caption>Lista de la compra</caption>
+                        <thead>
+                            <tr>
+                                <td colspan="2">Producto</td>
+                                <td>Cantidad</td>
+                                <td>Precio</td>
+                            </tr>
+                        </thead>
+                        <tfoot></tfoot>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">Huevos</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Leche</td>
+                                <td>6</td>
+                                <td>1,3</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Harina</td>
+                                <td>1</td>
+                                <td>1,6</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Carniceria</td>
+                                <td>Pechuga Pollo</td>
+                                <td>3</td>
+                                <td>4,5</td>
+                            </tr>
+                            <tr>
+                                <td>Carne picada</td>
+                                <td>0,5</td>
+                                <td>6,5</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">Total</td>
+                                <td>11,4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+            <section id="Seccion2">
+                <h2>Volver pagina principal</h2>
+                <article>
+                    <a href="../index.html">Volver</a>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>

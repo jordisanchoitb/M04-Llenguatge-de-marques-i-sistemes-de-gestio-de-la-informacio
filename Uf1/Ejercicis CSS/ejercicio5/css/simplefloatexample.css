@@ -1,0 +1,14 @@
+.float_left {
+    background-color: aquamarine;
+    float: left;
+    width: 10rem;
+    height: 5rem;
+    margin-right: 1rem;
+}
+.float_right {
+    background-color: aquamarine;
+    float: right;
+    width: 10rem;
+    height: 5rem;
+    margin-left: 1rem;
+}

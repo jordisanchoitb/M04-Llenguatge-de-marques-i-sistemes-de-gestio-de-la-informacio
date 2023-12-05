@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<gimnasios>
+    <gimnasio propiedad="Inuyasha" valoracion="4,5">
+        <nombre>Dor</nombre>
+        <localizacion>Avenida hipotenusa 232</localizacion>
+        <actividades>Crossfit, pilates y yoga</actividades>    
+    </gimnasio>
+    <gimnasio propiedad="Arthur Connan">
+        <nombre>Aquopolis</nombre>
+        <localizacion>Calle Tangente 111</localizacion>   
+    </gimnasio>
+    <gimnasio propiedad="Son Goku" valoracion="3,5" reseñas="256">
+        <nombre>Muscle Man</nombre>
+        <localizacion>Av. Ángulo 222</localizacion>
+        <actividades>Halterofilia, crossfit, natación y atletismo</actividades>    
+    </gimnasio>
+</gimnasios>

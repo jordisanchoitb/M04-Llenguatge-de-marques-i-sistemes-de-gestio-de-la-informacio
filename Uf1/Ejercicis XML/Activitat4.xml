@@ -1,0 +1,42 @@
+<receptes>
+    <recepta temps="60">
+        <nom>Patates Fregides</nom>
+        <fotografia>patates.png</fotografia>
+        <ingredients>
+            <ingredient cant="15" mesura="ml">Oli</ingredient>
+            <ingredient cant="150" mesura="g">Patates</ingredient>
+            <ingredient cant="5" mesura="g">Sal</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="1">Es posa l'oli a escalfar</pas>
+            <pas numero="2"></pas>
+            <pas numero="3"></pas>
+            <pas numero="4"></pas>
+            <pas numero="5"></pas>
+            <pas numero="6"></pas>
+        </preparacio>
+    </recepta>
+    <recepta temps="60">
+        <nom>Patates Fregides</nom>
+        <ingredients>
+            <ingredient cant="15" mesura="ml">Sipions</ingredient>
+            <ingredient cant="150" mesura="g">Arròs</ingredient>
+            <ingredient cant="5" mesura="g">Ceba</ingredient>
+            <ingredient cant="15" mesura="ml">Tomàquet</ingredient>
+            <ingredient cant="150" mesura="g">Alls</ingredient>
+            <ingredient cant="5" mesura="g">Pebrot tendre</ingredient>
+            <ingredient cant="15" mesura="ml">Aigua</ingredient>
+            <ingredient cant="150" mesura="g">Oli</ingredient>
+            <ingredient cant="5" mesura="g">Sal</ingredient>
+        </ingredients>
+        <preparacio>
+            <pas numero="1"></pas>
+            <pas numero="2"></pas>
+            <pas numero="3"></pas>
+            <pas numero="4"></pas>
+            <pas numero="5"></pas>
+            <pas numero="6"></pas>
+            <pas numero="7"></pas>
+        </preparacio>
+    </recepta>
+</receptes>

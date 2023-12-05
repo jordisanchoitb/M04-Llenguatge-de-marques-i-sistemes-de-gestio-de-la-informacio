@@ -1,0 +1,23 @@
+<CitasMedicas>
+    <Paciente>
+        <Nombre>Lucas</Nombre>
+        <Apellidos>Lopez Garcia</Apellidos>
+        <Telefono>654578445</Telefono>
+        <FechaCita>15-2-2024</FechaCita>
+        <HoraCita>8:00</HoraCita>
+    </Paciente>
+    <Paciente>
+        <Nombre>Adria</Nombre>
+        <Apellidos>Villodes Rodriguez</Apellidos>
+        <Telefono>654446545</Telefono>
+        <FechaCita>6-7-2024</FechaCita>
+        <HoraCita>18:00</HoraCita>
+    </Paciente>
+    <Paciente>
+        <Nombre>Lucas</Nombre>
+        <Apellidos>Pardo Garrido</Apellidos>
+        <Telefono>254678424</Telefono>
+        <FechaCita>30-5-2024</FechaCita>
+        <HoraCita>12:00</HoraCita>
+    </Paciente>
+</CitasMedicas>

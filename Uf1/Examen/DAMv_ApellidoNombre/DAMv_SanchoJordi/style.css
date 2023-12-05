@@ -1,0 +1,193 @@
+/*
+azul: #30c7d5;
+naranja: #dd9e6b;
+marron: #cf928b;
+gris: #4e4e4e;
+
+//Fuente de toda la página
+font-family: "Lato", sans-serif;
+font-size: 16px;
+
+//Para titulos
+font-family: "Playfair Display", serif;
+
+//Texto fino
+font-weight: 200;
+*/
+* {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;  
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: "Playfair Display", serif;
+}
+
+nav{    
+    width: 100%;
+}
+
+.navnavegacion {
+    display: flex;
+    background-color: #30c7d5;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.logo {
+    height: 100px;
+    width: 150px;
+}
+
+.ulnavegacion {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    padding: 0.8rem;
+}
+
+.anav {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: #dd9e6b;
+}
+header {
+    background-image: url(./imagenes/desierto.jpeg);
+    background-repeat: round;
+    width: 100%;
+}
+.secciontegustaviajar {
+    height: 560px;
+    display: flex;
+    align-items: center;
+}
+
+.articletegustaviajar {
+    display: flex;
+    flex-direction: column;
+    width: 410px;
+    color: white;
+    margin-left: 8rem;
+}
+
+.divinfotegustaviajar {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: xx-large;
+}
+.aentrategustaviajar {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.aentrategustaviajar:hover {
+    background-color: #4e4e4e;
+}
+
+.seccionaside {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+.articleaside {
+    margin-top: 2rem;
+    width: 320px;
+    text-align: center;
+    border: 1px #4e4e4e solid;
+}
+.imgarticlepost {
+    height: auto;
+    width: 320px;
+}
+.divinfopostaside {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+
+.aleermas {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 200;
+    text-decoration: none;
+    width: 150px;
+    border-bottom: 1px solid #30c7d5;
+    padding: 0.2rem;
+    margin-left: 20%;
+}
+
+.aleermas:hover {
+    background-color: #30c7d5;
+}
+
+.h2post {
+    font-size: x-large;
+    font-weight: 200;
+}
+
+aside {
+    border-bottom: 4px gray solid;
+}
+
+main {
+    border-bottom: 4px gray solid;
+}
+.seccionmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divarticles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgmain {
+    max-width: 200px;
+    height: auto;
+}
+.articlesmain {
+    width: 200px;
+    height: auto;
+    margin: 1rem;
+}
+.pmain {
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #4e4e4e;
+    padding: 0.4rem;
+}
+
+.h2main {
+    font-size: x-large;
+}
+.pmain:hover {
+    background-color: #30c7d5;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.fuenteletra {
+    font-size: small;
+    margin: 0.2rem;
+}

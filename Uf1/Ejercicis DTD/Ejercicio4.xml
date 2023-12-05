@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persona [
+  <!ELEMENT persona (nombre, mujer, fecha_de_nacimiento, ciudad)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT mujer EMPTY>
+  <!ELEMENT fecha_de_nacimiento (#PCDATA)>
+  <!ATTLIST fecha_de_nacimiento dia CDATA #REQUIRED>
+  <!ATTLIST fecha_de_nacimiento mes CDATA #REQUIRED>
+  <!ATTLIST fecha_de_nacimiento anyo CDATA #FIXED "2000">
+  <!ELEMENT ciudad (#PCDATA)>
+]>
+
+<persona>
+   <nombre>Maria</nombre>
+   <mujer/>
+   <fecha_de_nacimiento dia="21" mes="10" anyo="2000"></fecha_de_nacimiento>
+   <ciudad>Bilbao</ciudad>
+</persona>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link href="http://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="../css/itinerari.css" />
+	<title>Grups ITB Tours</title>
+
+	<script>
+		function loadXMLDoc(filename) {
+			//Abrimos una conexión con el servidor
+			xhttp = new XMLHttpRequest();
+			//Pedimos un fichero
+			xhttp.open("GET", filename, false);
+			try { xhttp.responseType = "msxml-document" } catch (err) { alert("Hay error"); } // Helping IE11
+			xhttp.send("");
+			return xhttp.responseXML;
+		}
+
+
+		function displayResult() {
+			// Obtener la ID del enlace en el navegador
+			var urlActual = window.location.href;
+			var id = new URL(urlActual).searchParams.get("id");
+
+			// Cargar los ficheros XML y XSLT
+			var xml = loadXMLDoc("fitxa_grup.xml");
+			var xsl = loadXMLDoc("grups1.xsl");
+
+			if (document.implementation && document.implementation.createDocument) {
+				// Lanzamos el xsltproc que tiene el navegador
+				var xsltProcessor = new XSLTProcessor();
+				xsltProcessor.importStylesheet(xsl);
+				
+				// Pasar el valor del parámetro "id" al archivo XSLT
+				xsltProcessor.setParameter(null, "id", id);
+				
+				var resultDocument = xsltProcessor.transformToFragment(xml, document);
+
+				// El resultado de la transformación lo ponemos dentro del elemento
+				// section con identificador "content-grups"
+				document.getElementById("content-grups").appendChild(resultDocument);
+			}
+		}
+
+	</script>
+</head>
+
+<body class="content-body" onload="displayResult()">
+
+	<header>
+		<div class="logo">
+			<img class="imgnav" alt="logo ITB" src="../imagenes/logoitb.jpeg" />
+		</div>
+		<nav id="fijo">
+			<ul class="menunav">
+				<li> <a href="../index.html">inicio</a></li>
+				<li> <a href="#">grupos propios</a></li>
+				<li> <a href="#">viajes a medida</a></li>
+				<li> <a href="#">cruceros</a></li>
+				<li> <a href="#">ofertas</a></li>
+				<li> <a href="#">contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section class="content-grups" id="content-grups">
+
+		</section>
+	</main>
+
+	<footer>
+		<p class="pfooter">Y viajes a medida, para mas informacion vista nuestras redes sociales</p>
+		<div class="divfooter">
+			<a href="www.instagram.com" target="_black"><img class="footer" alt="icono instagram" src="../imagenes/instagram_icon.png"></img></a>
+			<a href="www.facebook.com" target="_black"><img class="footer" alt="icono facebook" src="../imagenes/facebook.png"></img></a>
+		</div>
+	</footer>
+</body>
+</html>

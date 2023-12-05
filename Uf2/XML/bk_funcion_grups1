@@ -1,0 +1,14 @@
+function displayResult() {
+			//Queremos cargar los ficheros XML y XSLT
+			xml = loadXMLDoc("fitxa_grup.xml");
+			xsl = loadXMLDoc("grups1.xsl");
+			if (document.implementation && document.implementation.createDocument) {
+				//Lanzamos el xsltproc que tiene el navegador
+				xsltProcessor = new XSLTProcessor();
+				xsltProcessor.importStylesheet(xsl);
+				resultDocument = xsltProcessor.transformToFragment(xml, document);
+				//El resultado de la transformación los ponemos dentro del elemento
+				//section con identificador CONTENT-RECETAS
+				document.getElementById("content-grups").appendChild(resultDocument);
+			}
+		}

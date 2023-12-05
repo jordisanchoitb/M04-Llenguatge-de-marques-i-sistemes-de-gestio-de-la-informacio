@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viviendas>
+    <piso ide="1">
+        <!-- comprador se refiera al posible comprador -->
+        <comprador>
+            <nombre>ramon</nombre>
+            <apellido>fernandez</apellido>
+            <dni>1554674T</dni>
+        </comprador>
+        <calle>Calle d'Aiguablava</calle>
+        <ubicacion>La trinitat nova</ubicacion>
+        <ciudad>barcelona</ciudad>
+        <precio>720 €</precio>
+        <!-- se puede agregar una etiqueta de moneda -->
+        <caracteristicas>
+            <habitaciones>3</habitaciones>
+            <baños>1</baños>
+            <superficie>50 m2</superficie>
+            <planta con_ascensor="no">3</planta>
+            <informacionAdicional>
+                <info>distribuidos en 3 habitaciones (una doble) exteriores, salon comedor</info>
+            </informacionAdicional>
+        </caracteristicas>
+        <NumeroDeContacto>
+            <numero>&apos;932933042&apos;</numero>
+        </NumeroDeContacto>
+        <imagenURL>https://www.habitaclia.com//home1.jpg</imagenURL>
+
+    </piso>
+    <piso ide="2">
+        <!-- comprador se refiera al posible comprador -->
+        <comprador>
+            <nombre>marcos</nombre>
+            <apellido>fernandez</apellido>
+            <dni>1342874T</dni>
+        </comprador>
+        <calle>Calle de portligat</calle>
+        <ubicacion>La trinitat nova</ubicacion>
+        <ciudad>barcelona</ciudad>
+        <precio>550 €</precio>
+        <!-- se puede agregar una etiqueta de moneda -->
+        <caracteristicas>
+            <habitaciones>2</habitaciones>
+            <baños>1</baños>
+            <superficie>50 m2</superficie>
+            <planta con_ascensor="si">4</planta>
+            <informacionAdicional>
+                <info>este bonito piso de dos habitaciones en el corazon de barcelona</info>
+            </informacionAdicional>
+        </caracteristicas>
+        <NumeroDeContacto>
+            <numero>&apos;931 785 806&apos;</numero>
+        </NumeroDeContacto>
+        <imagenURL>https://www.habitaclia.com//home1.jpg</imagenURL>
+    </piso>
+    <piso ide="3">
+        <!-- comprador se refiera al posible comprador -->
+        <comprador>
+            <nombre>pedro</nombre>
+            <apellido>fernandez</apellido>
+            <dni>1596874T</dni>
+        </comprador>
+        <calle>Calle de portligat</calle>
+        <ubicacion>La trinitat nova</ubicacion>
+        <ciudad>barcelona</ciudad>
+        <precio>676 €</precio>
+        <!-- se puede agregar una etiqueta de moneda -->
+        <caracteristicas>
+            <habitaciones>3</habitaciones>
+            <baños>1</baños>
+            <superficie>49 m2</superficie>
+            <!-- se puede agregar una etiqueta de superficie en metros-->
+            <promocion promo="1 mes de alquiler gratis"></promocion>
+            <informacionAdicional>
+                <info>1 mes de alquiler gratis si reservas antes del 31 de octubre</info>
+                <info>sin ascensor</info>
+            </informacionAdicional>
+        </caracteristicas>
+        <NumeroDeContacto>
+            <numero>&apos;912 785 806&apos;</numero>
+        </NumeroDeContacto>
+        <imagenURL>https://www.habitaclia.com//home1.jpg</imagenURL>
+    </piso>
+</viviendas>

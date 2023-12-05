@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<productos>
+    <producto id="1" img="procesador.png">
+        <nombre>AMD Ryzen 7 5800X 3.8GHz</nombre>
+        <descripcion>
+            Este procesador cuenta con una velocidad de reloj base de 3.8GHz, 
+            lo que significa que podrás realizar tareas complejas de manera más eficiente y rápida. 
+            Además, su arquitectura de 8 núcleos y 16 hilos te permitirá 
+            realizar varias tareas simultáneamente sin que el rendimiento se vea afectado.
+        </descripcion>
+        <precio>189,90€</precio>
+        <categoria>Procesadores</categoria>
+        <disponibilidad>Agotado</disponibilidad>
+    </producto>
+    <producto id="2" img="placabase.png">
+        <nombre>Gigabyte Z690 AORUS MASTER</nombre>
+        <descripcion>
+            Placa madre Intel® Z690 AORUS con diseño VRM digital directo de 19 + 1 + 2 fases, 
+            diseño de MEMORIA DDR5 XTREME, disipador térmico Fins-Array III, Heatpipe II de contacto directo, 
+            placa base NanoCarbon, M.2 Thermal Guard III, 125dB ESS Sabre Audio, Intel ® WIFI 6E 802.11ax, 
+            AQUANTIA® 10GbE LAN.
+        </descripcion>
+        <precio>548,96€</precio>
+        <categoria>Placas bases</categoria>
+        <disponibilidad>En Stock</disponibilidad>
+    </producto>
+    <producto id="3" img="tarjetagrafica.png">
+        <nombre> Gigabyte GeForce RTX 4090 GAMING OC 24GB GDDR6X DLSS3</nombre>
+        <descripcion>
+            El sistema de refrigeración WINDFORCE cuenta con tres ventiladores de aspa únicos de 110 mm, 
+            giro alternativo, 10 tubos de calor de cobre compuesto, 
+            una gran cámara de vapor que toca directamente la GPU, ventiladores activos 3D y refrigeración de pantalla, 
+            que juntos proporcionan una disipación de calor de alta eficiencia.
+        </descripcion>
+        <precio>1899,90€</precio>
+        <categoria>Tarjetas graficas</categoria>
+        <disponibilidad>En Stock</disponibilidad>
+    </producto>
+    <producto id="4" img="discossd.png">
+        <nombre>Samsung 870 QVO SSD 1TB SATA3</nombre>
+        <descripcion>
+            El 870 QVO es lo último de la segunda generación de Samsung. 
+            El SSD QLC es el tipo de SSD de mayor capacidad, ya que proporciona hasta 8 TB de almacenamiento. 
+            Este disco, ofrece opciones increíbles para los usuarios que quieren aumentar la memoria de su PC o portátil 
+            hasta el máximo disponible en el mercado, y sin comprometer el rendimiento.
+        </descripcion>
+        <precio>62,99€</precio>
+        <categoria>Discos Duros</categoria>
+        <disponibilidad>En Stock</disponibilidad>
+    </producto>
+    <producto id="5" img="discohdd.png">
+        <nombre>Seagate BarraCuda 3.5&quot; 1TB SATA3</nombre>
+        <descripcion>Versátiles. Rápidos. Fiables. La unidad de disco duro más increíble que haya conocido</descripcion>
+        <precio>38,49€</precio>
+        <categoria>Discos Duros</categoria>
+        <disponibilidad>En Stock</disponibilidad>
+    </producto>
+</productos>

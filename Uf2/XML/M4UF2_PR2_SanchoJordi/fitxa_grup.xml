@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fitxa_grup.xsl"?>
+<grups>
+	<grup id="1" fecha="2 de Febrero 2023">
+		<nom>La Rioja</nom>
+		<categoria>Terrestre</categoria>
+		<informacio_general>
+			<foto>imagenes/rioja.jpeg</foto>
+			<enllac>fitxa_grup/grups1.html?id=1</enllac>
+			<dies>5 dias</dies>
+			<preu>595 € </preu>
+			<individual>120 €</individual>
+			<grupMin>10 personas</grupMin>
+			<origen>Maresme i Barcelona</origen>
+			<descripcio>Exeprència Gatsronòmica i Cultural en Pensión Completa y nuestra guia
+				acompañante</descripcio>
+		</informacio_general>
+		<inclos>
+			<inclou>Autocar de lujo, incluyendo gel hidroalcohólico, 4 mascarillas / persona, 1
+				botella de agua de 33 cl por persona / día.</inclou>
+			<inclou>• Guía acompañante todo el circuito,especialista en el destino.</inclou>
+			<inclou> Audio guias para todas las visitas a pie y poder mantener más distancia entre
+				participantes.</inclou>
+			<inclou>Hotel **** los Bracos o simliar situado en Logroño.</inclou>
+			<inclou>3 desayunos buffet y 4 almuerzos con vino y agua incluido.</inclou>
+			<inclou>Seguro de viajes con anulación incluye Covid 19.</inclou>
+		</inclos>
+		<itinerari>
+			<dia numero="1">
+				<titol>DÍA 1. CATALUNYA - TUDELA - LOGROÑO</titol>
+				<desc>Presentación en los diferentes puntos de origen a primera hora de la mañana.
+					Salida hacia La Rioja. Atravesaremos Aragón y los Monegros y entraremos en la
+					Comunidad Foral de Navarra, hasta Tudela. Almuerzo. Por la tarde, continuación
+					de la ruta atrave- sando el valle del Ebro hasta llegar a Logro-
+					ño, capital de la Rioja, donde realizaremos una visita panorámica, resaltando su
+					Catedral, llamada la “Redonda”, su pintoresco centro histórico y diversos
+					palacios de interés como el de Espartero. Finalizada la visita nos dirigiremos
+					al hotel. Alojamiento.
+				</desc>
+			</dia>
+			<dia numero="2">
+				<titol>DÍA 2. LOGROÑO - HARO - BRIONES - SAN VICENTE DE LA SONSIERRA.</titol>
+				<desc>Desayuno. Salida por la mañana para reali
+					zar la llamada “Ruta del vino”, compartiendo esta actividad gastronómica con el
+					rico patrimonio de esta comunidad. Iniciaremos el recorrido en Haro, lugar donde
+					tendremos nuestro primer contacto con el vino visitando también una de sus
+					Bodegas, donde tendremos la oportunidad de realizar la degustación de sus
+					famosos “caldos”. Almuerzo. Por la tarde visitaremos el pequeño y pintoresco
+					pueblo de Briones, antigua ciudad-fortaleza y una de les más bonitas locaidades
+					de la Rioja, donde el tiempo parece haber parado en la época medieval,
+					resaltando un conjunto histórico y monumental espectacular. Seguiremos camino
+					hacia lariojana villa de San Vicente de la Sonsierra,conocida por la fiesta de
+					los Picaos de Semana Santa, el conjunto de su castillo y fortaleza y la iglesia
+					románica de Santa María de la Piscina. Regreso al hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="3">
+				<titol>DÍA 3. LOGROÑO - MONASTERIO DE YUSO
+					- LAGUARDIA - ELCIEGO</titol>
+				<desc>Desayuno. Por la mañana realizaremos la excursión al Monasterio de Yuso,
+					considerado como el Escorial de La Rioja, que cuenta con uno de los archivos más
+					importantes de España en lo que a historia medieval se refiere, fue declarado
+					Patrimonio de la Humanidad en 1997.Antes del almuerzo haremos un curso de cata
+					en el centro enológico Villa Lucia donde además de deleitar los sentidos,
+					conoceremos algo de su historia en esta zona. Almuerzo . Por la tarde,
+					visitaremos la singular “Rioja Alavesa”, conoceremos la encantado-
+					ra e importante villa histórica de Laguardia,con un patrimonio arquitectónico y
+					capital la Rioja Alavesa. En esta amurallada calidad se encuentran dos
+					destacadas bodegas por su arquitectura y diseño. Bodega Ysios y Bodega Viña
+					Real, diseñadas por Calatrava y por Mazieres, a continuación nos dirigiremos a
+					El Ciego donde el arquitecto Frank Gehry,creador de verdaderas obras arte como
+					museo Guggenheim, a construido el hotel Marqués de Riscal, junto a las bodegas
+					del mismo nombre. Regreso hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="4">
+				<titol>DÍA 4. LOGROÑO - BUJARALOZ -
+					CATALUNYA</titol>
+				<desc> Desayuno y tiempo libre hasta la hora de iniciar el viaje de regreso.
+					Almuerzo en ruta. Por tarde iniciaremos la ruta de regreso nuestra ciudad.
+					Llegada y fin del viaje. Fin de nuestros servicios.
+
+					NOTA: el orden de las excursiones podrá ser mo-
+					dificado sin afectar a su contenido.</desc>
+			</dia>
+
+		</itinerari>
+	</grup>
+	<grup id="2" fecha="18 de Febrero 2023">
+		<nom>Egipto</nom>
+		<categoria>Terrestre</categoria>
+		<informacio_general>
+			<foto>imagenes/egipto.jpeg</foto>
+			<enllac>fitxa_grup/grups1.html?id=2</enllac>
+			<dies>8 dias</dies>
+			<preu>1995 € </preu>
+			<individual>680 €</individual>
+			<grupMin>10 personas</grupMin>
+			<origen>Maresme i Barcelona</origen>
+			<descripcio>Viaje fascinante a la cuna de la civilización en Pensión Completa y nuestra
+				guia acompañante</descripcio>
+		</informacio_general>
+		<inclos>
+			<inclou>Autocar de lujo, incluyendo gel hidroalcohólico, 4 mascarillas / persona, 1
+				botella de agua de 33 cl por persona / día.</inclou>
+			<inclou>• Guía acompañante todo el circuito,especialista en el destino.</inclou>
+			<inclou> Audio guias para todas las visitas a pie y poder mantener más distancia entre
+				participantes.</inclou>
+			<inclou>Hotel **** los Bracos o simliar situado en Logroño.</inclou>
+			<inclou>3 desayunos buffet y 4 almuerzos con vino y agua incluido.</inclou>
+			<inclou>Seguro de viajes con anulación incluye Covid 19.</inclou>
+		</inclos>
+		<itinerari>
+			<dia numero="1">
+				<titol>DÍA 1. CATALUNYA - TUDELA - LOGROÑO</titol>
+				<desc>Presentación en los diferentes puntos de origen a primera hora de la mañana.
+					Salida hacia La Rioja. Atravesaremos Aragón y los Monegros y entraremos en la
+					Comunidad Foral de Navarra, hasta Tudela. Almuerzo. Por la tarde, continuación
+					de la ruta atrave- sando el valle del Ebro hasta llegar a Logro-
+					ño, capital de la Rioja, donde realizaremos una visita panorámica, resaltando su
+					Catedral, llamada la “Redonda”, su pintoresco centro histórico y diversos
+					palacios de interés como el de Espartero. Finalizada la visita nos dirigiremos
+					al hotel. Alojamiento.
+</desc>
+			</dia>
+			<dia numero="2">
+				<titol>DÍA 2. LOGROÑO - HARO - BRIONES - SAN VICENTE DE LA SONSIERRA.</titol>
+				<desc>Desayuno. Salida por la mañana para reali
+					zar la llamada “Ruta del vino”, compartiendo esta actividad gastronómica con el
+					rico patrimonio de esta comunidad. Iniciaremos el recorrido en Haro, lugar donde
+					tendremos nuestro primer contacto con el vino visitando también una de sus
+					Bodegas, donde tendremos la oportunidad de realizar la degustación de sus
+					famosos “caldos”. Almuerzo. Por la tarde visitaremos el pequeño y pintoresco
+					pueblo de Briones, antigua ciudad-fortaleza y una de les más bonitas locaidades
+					de la Rioja, donde el tiempo parece haber parado en la época medieval,
+					resaltando un conjunto histórico y monumental espectacular. Seguiremos camino
+					hacia lariojana villa de San Vicente de la Sonsierra,conocida por la fiesta de
+					los Picaos de Semana Santa, el conjunto de su castillo y fortaleza y la iglesia
+					románica de Santa María de la Piscina. Regreso al hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="3">
+				<titol>DÍA 3. LOGROÑO - MONASTERIO DE YUSO
+					- LAGUARDIA - ELCIEGO</titol>
+				<desc>Desayuno. Por la mañana realizaremos la excursión al Monasterio de Yuso,
+					considerado como el Escorial de La Rioja, que cuenta con uno de los archivos más
+					importantes de España en lo que a historia medieval se refiere, fue declarado
+					Patrimonio de la Humanidad en 1997.Antes del almuerzo haremos un curso de cata
+					en el centro enológico Villa Lucia donde además de deleitar los sentidos,
+					conoceremos algo de su historia en esta zona. Almuerzo . Por la tarde,
+					visitaremos la singular “Rioja Alavesa”, conoceremos la encantado-
+					ra e importante villa histórica de Laguardia,con un patrimonio arquitectónico y
+					capital la Rioja Alavesa. En esta amurallada calidad se encuentran dos
+					destacadas bodegas por su arquitectura y diseño. Bodega Ysios y Bodega Viña
+					Real, diseñadas por Calatrava y por Mazieres, a continuación nos dirigiremos a
+					El Ciego donde el arquitecto Frank Gehry,creador de verdaderas obras arte como
+					museo Guggenheim, a construido el hotel Marqués de Riscal, junto a las bodegas
+					del mismo nombre. Regreso hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="4">
+				<titol>DÍA 4. LOGROÑO - BUJARALOZ -
+					CATALUNYA</titol>
+				<desc> Desayuno y tiempo libre hasta la hora de iniciar el viaje de regreso.
+					Almuerzo en ruta. Por tarde iniciaremos la ruta de regreso nuestra ciudad.
+					Llegada y fin del viaje. Fin de nuestros servicios.
+
+					NOTA: el orden de las excursiones podrá ser mo-
+					dificado sin afectar a su contenido.</desc>
+			</dia>
+
+		</itinerari>
+	</grup>
+	<grup id="3" fecha="18 de Enero 2024">
+		<nom>Pirineu</nom>
+		<categoria>Terrestre</categoria>
+		<informacio_general>
+			<foto>imagenes/pirineu.jpeg</foto>
+			<enllac>fitxa_grup/grups1.html?id=3</enllac>
+			<dies>5 dias</dies>
+			<preu>565 € </preu>
+			<individual>120 €</individual>
+			<grupMin>10 personas</grupMin>
+			<origen>Maresme i Barcelona</origen>
+			<descripcio>Conoce la fascinnate ciudad de Budapest y sus alrededores en Pensión
+				Completa y nuestra guia acompañante</descripcio>
+		</informacio_general>
+		<inclos>
+			<inclou>Autocar de lujo, incluyendo gel hidroalcohólico, 4 mascarillas / persona, 1
+				botella de agua de 33 cl por persona / día.</inclou>
+			<inclou>• Guía acompañante todo el circuito,especialista en el destino.</inclou>
+			<inclou> Audio guias para todas las visitas a pie y poder mantener más distancia entre
+				participantes.</inclou>
+			<inclou>Hotel **** los Bracos o simliar situado en Logroño.</inclou>
+			<inclou>3 desayunos buffet y 4 almuerzos con vino y agua incluido.</inclou>
+			<inclou>Seguro de viajes con anulación incluye Covid 19.</inclou>
+		</inclos>
+		<itinerari>
+			<dia numero="1">
+				<titol>DÍA 1. CATALUNYA - TUDELA - LOGROÑO</titol>
+				<desc>Presentación en los diferentes puntos de origen a primera hora de la mañana.
+					Salida hacia La Rioja. Atravesaremos Aragón y los Monegros y entraremos en la
+					Comunidad Foral de Navarra, hasta Tudela. Almuerzo. Por la tarde, continuación
+					de la ruta atrave- sando el valle del Ebro hasta llegar a Logro-
+					ño, capital de la Rioja, donde realizaremos una visita panorámica, resaltando su
+					Catedral, llamada la “Redonda”, su pintoresco centro histórico y diversos
+					palacios de interés como el de Espartero. Finalizada la visita nos dirigiremos
+					al hotel. Alojamiento.
+</desc>
+			</dia>
+			<dia numero="2">
+				<titol>DÍA 2. LOGROÑO - HARO - BRIONES - SAN VICENTE DE LA SONSIERRA.</titol>
+				<desc>Desayuno. Salida por la mañana para reali
+					zar la llamada “Ruta del vino”, compartiendo esta actividad gastronómica con el
+					rico patrimonio de esta comunidad. Iniciaremos el recorrido en Haro, lugar donde
+					tendremos nuestro primer contacto con el vino visitando también una de sus
+					Bodegas, donde tendremos la oportunidad de realizar la degustación de sus
+					famosos “caldos”. Almuerzo. Por la tarde visitaremos el pequeño y pintoresco
+					pueblo de Briones, antigua ciudad-fortaleza y una de les más bonitas locaidades
+					de la Rioja, donde el tiempo parece haber parado en la época medieval,
+					resaltando un conjunto histórico y monumental espectacular. Seguiremos camino
+					hacia lariojana villa de San Vicente de la Sonsierra,conocida por la fiesta de
+					los Picaos de Semana Santa, el conjunto de su castillo y fortaleza y la iglesia
+					románica de Santa María de la Piscina. Regreso al hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="3">
+				<titol>DÍA 3. LOGROÑO - MONASTERIO DE YUSO
+					- LAGUARDIA - ELCIEGO</titol>
+				<desc>Desayuno. Por la mañana realizaremos la excursión al Monasterio de Yuso,
+					considerado como el Escorial de La Rioja, que cuenta con uno de los archivos más
+					importantes de España en lo que a historia medieval se refiere, fue declarado
+					Patrimonio de la Humanidad en 1997.Antes del almuerzo haremos un curso de cata
+					en el centro enológico Villa Lucia donde además de deleitar los sentidos,
+					conoceremos algo de su historia en esta zona. Almuerzo . Por la tarde,
+					visitaremos la singular “Rioja Alavesa”, conoceremos la encantado-
+					ra e importante villa histórica de Laguardia,con un patrimonio arquitectónico y
+					capital la Rioja Alavesa. En esta amurallada calidad se encuentran dos
+					destacadas bodegas por su arquitectura y diseño. Bodega Ysios y Bodega Viña
+					Real, diseñadas por Calatrava y por Mazieres, a continuación nos dirigiremos a
+					El Ciego donde el arquitecto Frank Gehry,creador de verdaderas obras arte como
+					museo Guggenheim, a construido el hotel Marqués de Riscal, junto a las bodegas
+					del mismo nombre. Regreso hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="4">
+				<titol>DÍA 4. LOGROÑO - BUJARALOZ -
+					CATALUNYA</titol>
+				<desc> Desayuno y tiempo libre hasta la hora de iniciar el viaje de regreso.
+					Almuerzo en ruta. Por tarde iniciaremos la ruta de regreso nuestra ciudad.
+					Llegada y fin del viaje. Fin de nuestros servicios.
+
+					NOTA: el orden de las excursiones podrá ser mo-
+					dificado sin afectar a su contenido.</desc>
+			</dia>
+
+		</itinerari>
+	</grup>
+	<grup id="4" fecha="3 Marzo 2024">
+		<nom>Budapest</nom>
+		<categoria>Terrestre</categoria>
+		<informacio_general>
+			<foto>imagenes/budapest.jpeg</foto>
+			<enllac>fitxa_grup/grups1.html?id=4</enllac>
+			<dies>5 dias</dies>
+			<preu>595 € </preu>
+			<individual>120 €</individual>
+			<grupMin>10 personas</grupMin>
+			<origen>Maresme i Barcelona</origen>
+			<descripcio>Conoce esta fascinante ciudad y su cultura con nostras, en Pensión Completa
+				y nuestra guia acompañante</descripcio>
+		</informacio_general>
+		<inclos>
+			<inclou>Autocar de lujo, incluyendo gel hidroalcohólico, 4 mascarillas / persona, 1
+				botella de agua de 33 cl por persona / día.</inclou>
+			<inclou>• Guía acompañante todo el circuito,especialista en el destino.</inclou>
+			<inclou> Audio guias para todas las visitas a pie y poder mantener más distancia entre
+				participantes.</inclou>
+			<inclou>Hotel **** los Bracos o simliar situado en Logroño.</inclou>
+			<inclou>3 desayunos buffet y 4 almuerzos con vino y agua incluido.</inclou>
+			<inclou>Seguro de viajes con anulación incluye Covid 19.</inclou>
+		</inclos>
+		<itinerari>
+			<dia numero="1">
+				<titol>DÍA 1. CATALUNYA - TUDELA - LOGROÑO</titol>
+				<desc>Presentación en los diferentes puntos de origen a primera hora de la mañana.
+					Salida hacia La Rioja. Atravesaremos Aragón y los Monegros y entraremos en la
+					Comunidad Foral de Navarra, hasta Tudela. Almuerzo. Por la tarde, continuación
+					de la ruta atrave- sando el valle del Ebro hasta llegar a Logro-
+					ño, capital de la Rioja, donde realizaremos una visita panorámica, resaltando su
+					Catedral, llamada la “Redonda”, su pintoresco centro histórico y diversos
+					palacios de interés como el de Espartero. Finalizada la visita nos dirigiremos
+					al hotel. Alojamiento.
+</desc>
+			</dia>
+			<dia numero="2">
+				<titol>DÍA 2. LOGROÑO - HARO - BRIONES - SAN VICENTE DE LA SONSIERRA.</titol>
+				<desc>Desayuno. Salida por la mañana para reali
+					zar la llamada “Ruta del vino”, compartiendo esta actividad gastronómica con el
+					rico patrimonio de esta comunidad. Iniciaremos el recorrido en Haro, lugar donde
+					tendremos nuestro primer contacto con el vino visitando también una de sus
+					Bodegas, donde tendremos la oportunidad de realizar la degustación de sus
+					famosos “caldos”. Almuerzo. Por la tarde visitaremos el pequeño y pintoresco
+					pueblo de Briones, antigua ciudad-fortaleza y una de les más bonitas locaidades
+					de la Rioja, donde el tiempo parece haber parado en la época medieval,
+					resaltando un conjunto histórico y monumental espectacular. Seguiremos camino
+					hacia lariojana villa de San Vicente de la Sonsierra,conocida por la fiesta de
+					los Picaos de Semana Santa, el conjunto de su castillo y fortaleza y la iglesia
+					románica de Santa María de la Piscina. Regreso al hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="3">
+				<titol>DÍA 3. LOGROÑO - MONASTERIO DE YUSO
+					- LAGUARDIA - ELCIEGO</titol>
+				<desc>Desayuno. Por la mañana realizaremos la excursión al Monasterio de Yuso,
+					considerado como el Escorial de La Rioja, que cuenta con uno de los archivos más
+					importantes de España en lo que a historia medieval se refiere, fue declarado
+					Patrimonio de la Humanidad en 1997.Antes del almuerzo haremos un curso de cata
+					en el centro enológico Villa Lucia donde además de deleitar los sentidos,
+					conoceremos algo de su historia en esta zona. Almuerzo . Por la tarde,
+					visitaremos la singular “Rioja Alavesa”, conoceremos la encantado-
+					ra e importante villa histórica de Laguardia,con un patrimonio arquitectónico y
+					capital la Rioja Alavesa. En esta amurallada calidad se encuentran dos
+					destacadas bodegas por su arquitectura y diseño. Bodega Ysios y Bodega Viña
+					Real, diseñadas por Calatrava y por Mazieres, a continuación nos dirigiremos a
+					El Ciego donde el arquitecto Frank Gehry,creador de verdaderas obras arte como
+					museo Guggenheim, a construido el hotel Marqués de Riscal, junto a las bodegas
+					del mismo nombre. Regreso hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="4">
+				<titol>DÍA 4. LOGROÑO - BUJARALOZ -
+					CATALUNYA</titol>
+				<desc> Desayuno y tiempo libre hasta la hora de iniciar el viaje de regreso.
+					Almuerzo en ruta. Por tarde iniciaremos la ruta de regreso nuestra ciudad.
+					Llegada y fin del viaje. Fin de nuestros servicios.
+
+					NOTA: el orden de las excursiones podrá ser mo-
+					dificado sin afectar a su contenido.</desc>
+			</dia>
+
+		</itinerari>
+	</grup>
+	<grup id="5" fecha="18 de Junio 2021">
+		<nom>Otro Sitio</nom>
+		<categoria>Terrestre</categoria>
+		<informacio_general>
+			<foto>imagenes/rioja.jpeg</foto>
+			<enllac>fitxa_grup/grups1.html?id=5</enllac>
+			<dies>5 dias</dies>
+			<preu>595 € </preu>
+			<individual>120 €</individual>
+			<grupMin>10 personas</grupMin>
+			<origen>Maresme i Barcelona</origen>
+			<descripcio>Exeprència Gatsronòmica i Cultural en Pensión Completa y nuestra guia
+				acompañante</descripcio>
+		</informacio_general>
+		<inclos>
+			<inclou>Autocar de lujo, incluyendo gel hidroalcohólico, 4 mascarillas / persona, 1
+				botella de agua de 33 cl por persona / día.</inclou>
+			<inclou>• Guía acompañante todo el circuito,especialista en el destino.</inclou>
+			<inclou> Audio guias para todas las visitas a pie y poder mantener más distancia entre
+				participantes.</inclou>
+			<inclou>Hotel **** los Bracos o simliar situado en Logroño.</inclou>
+			<inclou>3 desayunos buffet y 4 almuerzos con vino y agua incluido.</inclou>
+			<inclou>Seguro de viajes con anulación incluye Covid 19.</inclou>
+		</inclos>
+		<itinerari>
+			<dia numero="1">
+				<titol>DÍA 1. CATALUNYA - TUDELA - LOGROÑO</titol>
+				<desc>Presentación en los diferentes puntos de origen a primera hora de la mañana.
+					Salida hacia La Rioja. Atravesaremos Aragón y los Monegros y entraremos en la
+					Comunidad Foral de Navarra, hasta Tudela. Almuerzo. Por la tarde, continuación
+					de la ruta atrave- sando el valle del Ebro hasta llegar a Logro-
+					ño, capital de la Rioja, donde realizaremos una visita panorámica, resaltando su
+					Catedral, llamada la “Redonda”, su pintoresco centro histórico y diversos
+					palacios de interés como el de Espartero. Finalizada la visita nos dirigiremos
+					al hotel. Alojamiento.
+</desc>
+			</dia>
+			<dia numero="2">
+				<titol>DÍA 2. LOGROÑO - HARO - BRIONES - SAN VICENTE DE LA SONSIERRA.</titol>
+				<desc>Desayuno. Salida por la mañana para reali
+					zar la llamada “Ruta del vino”, compartiendo esta actividad gastronómica con el
+					rico patrimonio de esta comunidad. Iniciaremos el recorrido en Haro, lugar donde
+					tendremos nuestro primer contacto con el vino visitando también una de sus
+					Bodegas, donde tendremos la oportunidad de realizar la degustación de sus
+					famosos “caldos”. Almuerzo. Por la tarde visitaremos el pequeño y pintoresco
+					pueblo de Briones, antigua ciudad-fortaleza y una de les más bonitas locaidades
+					de la Rioja, donde el tiempo parece haber parado en la época medieval,
+					resaltando un conjunto histórico y monumental espectacular. Seguiremos camino
+					hacia lariojana villa de San Vicente de la Sonsierra,conocida por la fiesta de
+					los Picaos de Semana Santa, el conjunto de su castillo y fortaleza y la iglesia
+					románica de Santa María de la Piscina. Regreso al hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="3">
+				<titol>DÍA 3. LOGROÑO - MONASTERIO DE YUSO
+					- LAGUARDIA - ELCIEGO</titol>
+				<desc>Desayuno. Por la mañana realizaremos la excursión al Monasterio de Yuso,
+					considerado como el Escorial de La Rioja, que cuenta con uno de los archivos más
+					importantes de España en lo que a historia medieval se refiere, fue declarado
+					Patrimonio de la Humanidad en 1997.Antes del almuerzo haremos un curso de cata
+					en el centro enológico Villa Lucia donde además de deleitar los sentidos,
+					conoceremos algo de su historia en esta zona. Almuerzo . Por la tarde,
+					visitaremos la singular “Rioja Alavesa”, conoceremos la encantado-
+					ra e importante villa histórica de Laguardia,con un patrimonio arquitectónico y
+					capital la Rioja Alavesa. En esta amurallada calidad se encuentran dos
+					destacadas bodegas por su arquitectura y diseño. Bodega Ysios y Bodega Viña
+					Real, diseñadas por Calatrava y por Mazieres, a continuación nos dirigiremos a
+					El Ciego donde el arquitecto Frank Gehry,creador de verdaderas obras arte como
+					museo Guggenheim, a construido el hotel Marqués de Riscal, junto a las bodegas
+					del mismo nombre. Regreso hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="4">
+				<titol>DÍA 4. LOGROÑO - BUJARALOZ -
+					CATALUNYA</titol>
+				<desc> Desayuno y tiempo libre hasta la hora de iniciar el viaje de regreso.
+					Almuerzo en ruta. Por tarde iniciaremos la ruta de regreso nuestra ciudad.
+					Llegada y fin del viaje. Fin de nuestros servicios.
+
+					NOTA: el orden de las excursiones podrá ser mo-
+					dificado sin afectar a su contenido.</desc>
+			</dia>
+
+		</itinerari>
+	</grup>
+	<grup id="6" fecha="12 de Junio 2024">
+		<nom>Crucero Caribe</nom>
+		<categoria>Terrestre</categoria>
+		<informacio_general>
+			<foto>imagenes/rioja.jpeg</foto>
+			<enllac>fitxa_grup/grups1.html?id=6</enllac>
+			<dies>5 dias</dies>
+			<preu>595 € </preu>
+			<individual>120 €</individual>
+			<grupMin>10 personas</grupMin>
+			<origen>Maresme i Barcelona</origen>
+			<descripcio>Exeprència Gatsronòmica i Cultural en Pensión Completa y nuestra guia
+				acompañante</descripcio>
+		</informacio_general>
+		<inclos>
+			<inclou>Autocar de lujo, incluyendo gel hidroalcohólico, 4 mascarillas / persona, 1
+				botella de agua de 33 cl por persona / día.</inclou>
+			<inclou>• Guía acompañante todo el circuito,especialista en el destino.</inclou>
+			<inclou> Audio guias para todas las visitas a pie y poder mantener más distancia entre
+				participantes.</inclou>
+			<inclou>Hotel **** los Bracos o simliar situado en Logroño.</inclou>
+			<inclou>3 desayunos buffet y 4 almuerzos con vino y agua incluido.</inclou>
+			<inclou>Seguro de viajes con anulación incluye Covid 19.</inclou>
+		</inclos>
+		<itinerari>
+			<dia numero="1">
+				<titol>DÍA 1. CATALUNYA - TUDELA - LOGROÑO</titol>
+				<desc>Presentación en los diferentes puntos de origen a primera hora de la mañana.
+					Salida hacia La Rioja. Atravesaremos Aragón y los Monegros y entraremos en la
+					Comunidad Foral de Navarra, hasta Tudela. Almuerzo. Por la tarde, continuación
+					de la ruta atrave- sando el valle del Ebro hasta llegar a Logro-
+					ño, capital de la Rioja, donde realizaremos una visita panorámica, resaltando su
+					Catedral, llamada la “Redonda”, su pintoresco centro histórico y diversos
+					palacios de interés como el de Espartero. Finalizada la visita nos dirigiremos
+					al hotel. Alojamiento.
+</desc>
+			</dia>
+			<dia numero="2">
+				<titol>DÍA 2. LOGROÑO - HARO - BRIONES - SAN VICENTE DE LA SONSIERRA.</titol>
+				<desc>Desayuno. Salida por la mañana para reali
+					zar la llamada “Ruta del vino”, compartiendo esta actividad gastronómica con el
+					rico patrimonio de esta comunidad. Iniciaremos el recorrido en Haro, lugar donde
+					tendremos nuestro primer contacto con el vino visitando también una de sus
+					Bodegas, donde tendremos la oportunidad de realizar la degustación de sus
+					famosos “caldos”. Almuerzo. Por la tarde visitaremos el pequeño y pintoresco
+					pueblo de Briones, antigua ciudad-fortaleza y una de les más bonitas locaidades
+					de la Rioja, donde el tiempo parece haber parado en la época medieval,
+					resaltando un conjunto histórico y monumental espectacular. Seguiremos camino
+					hacia lariojana villa de San Vicente de la Sonsierra,conocida por la fiesta de
+					los Picaos de Semana Santa, el conjunto de su castillo y fortaleza y la iglesia
+					románica de Santa María de la Piscina. Regreso al hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="3">
+				<titol>DÍA 3. LOGROÑO - MONASTERIO DE YUSO
+					- LAGUARDIA - ELCIEGO</titol>
+				<desc>Desayuno. Por la mañana realizaremos la excursión al Monasterio de Yuso,
+					considerado como el Escorial de La Rioja, que cuenta con uno de los archivos más
+					importantes de España en lo que a historia medieval se refiere, fue declarado
+					Patrimonio de la Humanidad en 1997.Antes del almuerzo haremos un curso de cata
+					en el centro enológico Villa Lucia donde además de deleitar los sentidos,
+					conoceremos algo de su historia en esta zona. Almuerzo . Por la tarde,
+					visitaremos la singular “Rioja Alavesa”, conoceremos la encantado-
+					ra e importante villa histórica de Laguardia,con un patrimonio arquitectónico y
+					capital la Rioja Alavesa. En esta amurallada calidad se encuentran dos
+					destacadas bodegas por su arquitectura y diseño. Bodega Ysios y Bodega Viña
+					Real, diseñadas por Calatrava y por Mazieres, a continuación nos dirigiremos a
+					El Ciego donde el arquitecto Frank Gehry,creador de verdaderas obras arte como
+					museo Guggenheim, a construido el hotel Marqués de Riscal, junto a las bodegas
+					del mismo nombre. Regreso hotel. Alojamiento.</desc>
+			</dia>
+			<dia numero="4">
+				<titol>DÍA 4. LOGROÑO - BUJARALOZ -
+					CATALUNYA</titol>
+				<desc> Desayuno y tiempo libre hasta la hora de iniciar el viaje de regreso.
+					Almuerzo en ruta. Por tarde iniciaremos la ruta de regreso nuestra ciudad.
+					Llegada y fin del viaje. Fin de nuestros servicios.
+
+					NOTA: el orden de las excursiones podrá ser mo-
+					dificado sin afectar a su contenido.</desc>
+			</dia>
+
+		</itinerari>
+	</grup>
+</grups>

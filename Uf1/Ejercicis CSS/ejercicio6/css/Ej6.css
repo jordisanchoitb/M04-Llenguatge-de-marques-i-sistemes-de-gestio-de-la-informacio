@@ -1,0 +1,75 @@
+.title {
+    background-color: black;
+    color: white;
+    height: 5rem;
+    padding: 0.1rem 1rem;
+    margin-bottom: 0.3rem;
+}
+.subtitle1 {
+    display: inline-block;
+    background-color: grey;
+    padding: 1rem;
+    width: 48%;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+.subtitle2 {
+    display: inline-block;
+    background-color: grey;
+    padding: 1rem;
+    width: 48%;
+    position: absolute;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+}
+header{
+    background-color: grey;
+}
+sub {
+    font-size: x-large;
+}
+nav {
+    background-color: rgb(186, 186, 186);
+}
+
+footer {
+    background-color: rgb(186, 186, 186);
+}
+.menu {
+    display: inline-block;
+    font-size: larger;
+    background-color: rgb(186, 186, 186);
+    width: 24%;
+    align-content: center;
+    text-align: center;
+}
+.padding {
+    padding: 2rem;
+}
+figure {
+    display: inline-block;
+    background-color: rgb(132, 132, 132);
+    width: 200px;
+    height: 200px;
+    margin-right: 0.5rem;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.article1div1 {
+    display: inline-block;
+    position: absolute;
+}
+
+.article2div1 {
+    display: inline-block;
+    position: absolute;
+    width: 60rem;
+}
+
+.article2div2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 59.8rem;
+    width: 60rem;
+}

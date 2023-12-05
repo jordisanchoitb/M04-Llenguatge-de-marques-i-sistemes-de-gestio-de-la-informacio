@@ -1,0 +1,8 @@
+<!--Corrige el siguiente codigo ( no es un XML)-->
+<corredor posicio="1">Manel Roure</corredor>
+<coche tipo="electrico">Tesla</coche>
+<coche tipocombustible="gasolina">Seat Ibiza</coche>
+<empleado cargo="contabilidad" sitio="recepcion">Jordi Ros</empleado>
+
+<!--Escribe un codigo xml equivalente utilizando solo una etiqueta:-->
+<coche marca"Seat" color="Rojo" matricula="B3456L" conductor="Jorge, Maria" inicio_alquilado="12/09/2023" fin_alquilado="24/09/2023"/>

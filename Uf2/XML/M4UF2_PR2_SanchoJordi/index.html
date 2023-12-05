@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link href="http://fonts.googleapis.com/css?family=Josefin Sans" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Josefin Slab" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/principal.css" />
+	
+	<title>ITB Tours</title>
+	<!--Inici script-->
+	<script>
+		function loadXMLDoc(filename) {
+			if (window.ActiveXObject) {
+				xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+			}
+			else {
+				xhttp = new XMLHttpRequest();
+			}
+			xhttp.open("GET", filename, false);
+			try { xhttp.responseType = "msxml-document" } catch (err) { alert("Haye rror"); } // Helping IE11
+			xhttp.send("");
+			return xhttp.responseXML;
+		}
+
+		function displayResult() {
+			xml = loadXMLDoc("fitxa_grup.xml");
+			xsl = loadXMLDoc("fitxa_grup.xsl");
+			// code for IE
+			if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+				ex = xml.transformNode(xsl);
+				document.getElementById("content-grups").innerHTML = ex;
+				alert("If");
+			}
+			// code for Chrome, Firefox, Opera, etc.
+			else if (document.implementation && document.implementation.createDocument) {
+				xsltProcessor = new XSLTProcessor();
+				xsltProcessor.importStylesheet(xsl);
+				resultDocument = xsltProcessor.transformToFragment(xml, document);
+				document.getElementById("content-grups").appendChild(resultDocument);
+
+			}
+		}
+	</script>
+
+<!--Final  script-->
+</head>
+
+<body class="content-body" onload="displayResult()">
+	
+	<header>
+
+		<nav><div class="logo">
+		<img class="logo" src="imagenes/logoitb.jpeg" alt="Logo" />
+	</div>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Grupos propios</a></li>
+				<li><a href="#">Viajes a medida</a></li>
+				<li><a href="#">Cruceros</a></li>
+				<li><a href="#">Ofertas</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul><br><br><br><br>
+			<ul>
+				<li><a href="https://www.instagram.com/iTecBcn/" class="fa fa-instagram"></a></li>
+				<li><a href="https://www.youtube.com/channel/UCoaBtXoia1xR2T3Bb5FRUnQ" class="fa fa-youtube"></a></li>
+				<li><a href="https://twitter.com/iTecBcn/" class="fa fa-twitter"></a></li>
+			</ul>
+
+		</nav>
+	</header>
+
+	<main>
+		
+		<!--Aquí va el contenidor on aniran totes les ofertes de grups-->
+		<section class="content-grups" id="content-grups">
+			<!--Aquí és on va tot el codide les ofertes i el resultat de la transformació-->
+		</section>
+		<!--Final del contenidor d'ofertes-->
+	</main>
+
+
+	<footer>
+				<article class="dades">
+					<h2>Especialistas en grupos y viajes a medida</h2><br/>
+					<h2>937025847</h2> <br>
+					<a href="mailto:reservas@itb.cat"> @mail </a><br>
+						
+					<address>Aiguablava 121<br/>08030 Barcelona<br/>BARCELONA</address>
+			   </article>
+		
+
+ 				<article class="foot">
+ 					<p><a href="#">Nota Legal</a>
+					<a href="#">Contacto</a><p><br><br>
+					<br><br><a>© 2003 - 2023 ITB TOURS. All Rights Reserved</a>
+				</article>
+			</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,240 @@
+
+/********************** ELEMENTOS GENERALES DE LA PÁGINA **************/
+*
+{
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+body{
+	text-align: center;
+}
+
+h1, h2, h3, nav a
+{
+	font-family: Helvetica Neue, Arial, serif;
+	font-weight: normal;
+	
+}
+
+a:hover
+{
+	color: #2b8cee;
+}
+
+/********************** HEADER **************/
+
+header
+{
+	display: inline-block;
+	width: 1400px;
+	text-align: center;
+	position: sticky;
+  	top: 0;
+  	z-index: 100;
+ 
+}
+div.logo{
+ width: 90px;
+ height: 75px;
+ border-radius: 10%;
+ margin-left: 10px;
+ float: left;
+
+}
+
+
+/********************** MENÚ NAVEGACIÓN **************/
+
+nav
+{
+	height: 125px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	background-color: white;
+	border:0px;
+	border-bottom-width: 0.5px;
+	border-style: solid;
+	border-color: #2b8cee;
+  }
+
+nav ul
+{
+	list-style-type: none;
+	text-align:right;
+	text-transform: uppercase;
+}
+nav li
+{
+	display: inline-block;
+	margin-right: 15px;
+}
+nav a
+{
+	font-size: 1.25em;
+	padding-bottom: 3px;
+	text-decoration: none;
+	color: #666666;
+}
+nav a:hover
+{
+	font-size: 1.5;
+	color: #2b8cee;
+}
+
+/**social media**/
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Instagram */
+.fa-instagram {
+  background: #b30059;
+  color: white;
+}
+
+/* Facebook */
+ .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+ .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+/********************** MAIN **************/
+main {
+	display: flex;
+	width: 100%;
+	align-content: center;
+	justify-content: center;
+}
+
+.img_article {
+	width: 300px;
+	height: 200px;
+}
+
+article.article-info {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	width: 33%;
+	height: 350px;
+}
+
+.content_article {
+	width: 300px;
+}
+  
+.div_articles {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: space-around;
+	width: 1400px;
+}
+
+.particle {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.pdate {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	border-top: 1px solid #55ACEE;
+	border-bottom: 1px solid #55ACEE;
+}
+
+
+
+
+
+/********************** FOOTER **************/
+footer
+{	
+	display:inline-block; 
+	width: 100%;
+	margin-top: 10px;
+	padding: 10px 10px;
+	background-color: #212121;
+}
+
+footer a
+{
+	font-size: 1em;
+	padding-bottom: 3px;
+	margin-right: 40px;
+	text-decoration: none;
+	text-align: right;
+	/*text-transform: uppercase;*/
+	font-weight: lighter;
+	color: #e6e6e6;
+	display: inline-block;
+	width: 1145px;
+	
+}
+
+article.dades{
+
+padding: 15px;
+color: #e6e6e6;
+text-align: left;
+width: 600px;
+ 
+ margin-left: 10px;
+ float: left;
+
+}
+article.dades a {
+	text-align: left;
+	font-size: 1.4em;
+}
+
+article.dades a:hover{
+	font-size: 1.5;
+	color: #2b8cee;
+	text-align: left;
+}
+article.dades address{
+	
+	color: #e6e6e6;
+	font-size: 1.2em;
+	
+}
+
+article.foot a {
+display: inline;
+text-align: right;
+
+}
+article.foot p {
+	text-align: right;
+}
+
+
+
+
+
+

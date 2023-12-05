@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<VentaDeCoches>
+    <!-- Coches a la venta -->
+    <Coches>
+        <Coche certificado="si">
+            <Nombre>BMW Series 1 116d 5p.</Nombre>
+            <Precios>
+                Iva Incluido
+                <PrecioContado>24.990€</PrecioContado>
+                <PrecioFinanciado>223.790€</PrecioFinanciado>
+            </Precios>
+            <Caracteristicas yeargarantia="2">
+                <TipoCombustible>Diesel</TipoCombustible>
+                <KmHechos>1.000</KmHechos>
+                <YearCoche>2019</YearCoche>
+                <Ubicacion>Barcelona</Ubicacion>
+            </Caracteristicas>
+            <Publicacion>
+                <Fecha>18/10</Fecha>
+                <Hora>09:44</Hora>
+            </Publicacion>
+            <Imagen>&quot;https://cocheBMWSerie1.png&quot;</Imagen>
+        </Coche>
+        <Coche certificado="no">
+            <Nombre>CHRYSLER Sebring 2.0 LE Auto 4p.</Nombre>
+            <Precios>
+                Iva Incluido
+                <PrecioContado>2.890€</PrecioContado>
+            </Precios>
+            <Caracteristicas yeargarantia="1">
+                <TipoCombustible>Gasolina</TipoCombustible>
+                <KmHechos>134.000</KmHechos>
+                <YearCoche>2001</YearCoche>
+                <Ubicacion>Barcelona</Ubicacion>
+            </Caracteristicas>
+            <Publicacion>
+                <Fecha>21/10</Fecha>
+                <Hora>11:22</Hora>
+            </Publicacion>
+        </Coche>
+    </Coches>
+    <!-- Posibles Compradores -->
+    <Compradores>
+        <Comprador>
+            <Nombre>
+                Jordi
+                <Apellidos>Perez Garcia</Apellidos>
+            </Nombre>
+            <DNI>4865145R</DNI>
+        </Comprador>
+        <Comprador>
+            <Nombre>
+                Adrian
+                <Apellidos>Sancho Fernandez</Apellidos>
+            </Nombre>
+            <DNI>8551453J</DNI>
+        </Comprador>
+    </Compradores>
+</VentaDeCoches>

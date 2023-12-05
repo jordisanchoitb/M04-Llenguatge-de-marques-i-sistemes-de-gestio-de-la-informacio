@@ -1,0 +1,233 @@
+/********************** ELEMENTOS GENERALES DE LA PÁGINA **************/
+*
+{
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+body{
+  text-align: center;
+}
+
+h1,h3, nav a
+{
+  font-family: Helvetica Neue, Arial, serif;
+  font-weight: normal;
+  
+}
+
+a:hover
+{
+  color: #7ABA96;
+}
+/********************** HEADER **************/
+
+header
+{
+	display: inline-block;
+	width: 1400px;
+	text-align: center;
+	position: sticky;
+  	top: 0;
+  	z-index: 100;
+ 
+}
+div.logo{
+ width: 90px;
+ height: 75px;
+ border-radius: 10%;
+ margin-left: 10px;
+ float: left;
+
+}
+
+img.imgnav {
+  height: 150px;
+  width: 150px;
+}
+
+
+/********************** MENÚ NAVEGACIÓN **************/
+
+nav{
+	height: 125px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 25px;
+	background-color: white;
+	border:0px;
+	border-bottom-width: 0.5px;
+	border-style: solid;
+	border-color: #2b8cee;
+  }
+nav ul
+{
+  list-style-type: none;
+  text-align:center;
+  text-transform: uppercase;
+}
+nav li
+{
+  display: inline-block;
+  margin-right: 15px;
+}
+nav a
+{
+  font-size: 1.25em;
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: #666666;
+}
+nav a:hover
+{
+  font-size: 25px;
+  color: #2b8cee;
+}
+
+/********************** MAIN **************/
+.article {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.img-content-grups {
+  height: 350px;
+  width: 300px;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+
+}
+
+.divsuperior_article {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;  
+}
+
+.div_h1 {
+  background-color: #2b69ee;
+}
+
+.h1article {
+  color:white;
+  padding: 0.2rem;
+  font-size: xx-large;
+  text-align: left;
+}
+
+.infodivsuperior {
+  display: flex;
+}
+
+.div_h2Superior {
+  background-color: #2b69ee;
+  margin-top: 0.5rem;
+  color: white;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.div_h2_upSuperior {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  padding-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.div_h2_downSuperior {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  padding-bottom: 0.6rem;
+  margin-left: 0.5rem;
+}
+.infoxml_Superior {
+  font-size: 24px;
+  padding: 0.1rem;
+}
+
+.h2_downSuperior2 {
+  margin-left: 0.5rem;
+}
+
+.div_info_Inferior {
+  margin-top: 0.4rem;
+  width: 100%;
+  height: 250px;
+  background-color: #66666642;
+  text-align: left;
+  padding-top: 0.2rem;
+  padding-left: 0.5rem;
+}
+
+.div_infoandh2Superior {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+h3 {
+  margin-bottom: 2rem;
+  color: #5b5b5b;
+  font-weight: bold;
+}
+
+.pinfo_Superior {
+  margin-bottom: 0.5rem;
+  font-size:small;
+  color: rgb(99, 99, 99);
+}
+
+.divitinerario {
+  text-align: left;
+  background-color: #66666642;
+  margin-bottom: 0.4rem;
+}
+
+.h2initerario{
+  color: #474747;
+}
+
+.piniterario{
+  margin-top: 1rem;
+  color: rgb(99, 99, 99)
+}
+
+.pnota {
+  margin-bottom: 1rem;
+  color: rgb(99, 99, 99)
+}
+
+strong{
+  color: #474747;
+  font-weight: bolder;
+}
+
+
+/******************** Footer ********-*****/
+footer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.pfooter{
+  color:white;
+  padding: 1rem;
+}
+
+img.footer {
+  height: 50px;
+  width: 50px;
+  padding: 0.5rem;
+}

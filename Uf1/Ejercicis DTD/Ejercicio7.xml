@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE matricula [
+    <!ELEMENT matricula (curso)>
+    <!ELEMENT curso EMPTY>
+        <!ATTLIST curso mes (enero | febrero | marzo | abril | mayo | junio | julio | agosto | septiembre | octubre | noviembre | diciembre) >
+        <!ATTLIST curso year (2019 | 2020 | 2021) >
+]>
+
+<matricula>
+	<curso year="2019"  mes="abril"/>
+</matricula>

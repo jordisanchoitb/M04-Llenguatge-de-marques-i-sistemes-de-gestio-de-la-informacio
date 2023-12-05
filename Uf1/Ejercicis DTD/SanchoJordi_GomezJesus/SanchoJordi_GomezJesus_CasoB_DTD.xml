@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE VentaDeCoches [
+    <!-- Definiciones Elementos-->
+    <!ELEMENT VentaDeCoches (Coches, Compradores)>
+    <!ELEMENT Coches (Coche*)>
+    <!ELEMENT Coche (NombreCoche, Precios, Caracteristicas, Publicacion, Imagen?)>
+    <!ELEMENT NombreCoche (#PCDATA)>
+    <!ELEMENT Precios (PrecioContado, PrecioFinanciado?)>
+    <!ELEMENT PrecioContado (#PCDATA)>
+    <!ELEMENT PrecioFinanciado (#PCDATA)>
+    <!ELEMENT Caracteristicas (TipoCombustible, KmHechos, YearCoche, Ubicacion)>
+    <!ELEMENT TipoCombustible (#PCDATA)>
+    <!ELEMENT KmHechos (#PCDATA)>
+    <!ELEMENT YearCoche (#PCDATA)>
+    <!ELEMENT Ubicacion (#PCDATA)>
+    <!ELEMENT Publicacion (Fecha, Hora)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT Hora (#PCDATA)>
+    <!ELEMENT Imagen (#PCDATA)>
+    <!ELEMENT Compradores (Comprador*)>
+    <!ELEMENT Comprador (NombreComprador, DNI)>
+    <!ELEMENT NombreComprador (#PCDATA|Apellidos)*>
+    <!ELEMENT Apellidos (#PCDATA)>
+    <!ELEMENT DNI (#PCDATA)>
+    
+    <!-- Definiciones Atributos-->
+    <!ATTLIST Coche certificado (si|no) #REQUIRED>
+    <!ATTLIST Precios IvaIncluido (si|no) #REQUIRED>
+    <!ATTLIST Caracteristicas yeargarantia CDATA #REQUIRED>
+
+    <!-- Definiciones Entidades-->
+    <!ENTITY gaso "Gasolina">
+    <!ENTITY dies "Diesel">
+]>
+
+<VentaDeCoches>
+    
+    <!-- Coches a la venta -->
+    <Coches>
+        <Coche certificado="si">
+            <NombreCoche>BMW Series 1 116d 5p.</NombreCoche>
+            <Precios IvaIncluido="si">
+                <PrecioContado>24.990€</PrecioContado>
+                <PrecioFinanciado>223.790€</PrecioFinanciado>
+            </Precios>
+            <Caracteristicas yeargarantia="2">
+                <TipoCombustible>&dies;</TipoCombustible>
+                <KmHechos>1.000</KmHechos>
+                <YearCoche>2019</YearCoche>
+                <Ubicacion>Barcelona</Ubicacion>
+            </Caracteristicas>
+            <Publicacion>
+                <Fecha>18/10</Fecha>
+                <Hora>09:44</Hora>
+            </Publicacion>
+            <Imagen>&quot;https://cocheBMWSerie1.png&quot;</Imagen>
+        </Coche>
+        <Coche certificado="no">
+            <NombreCoche>CHRYSLER Sebring 2.0 LE Auto 4p.</NombreCoche>
+            <Precios IvaIncluido="si">
+                <PrecioContado>2.890€</PrecioContado>
+            </Precios>
+            <Caracteristicas yeargarantia="1">
+                <TipoCombustible>&gaso;</TipoCombustible>
+                <KmHechos>134.000</KmHechos>
+                <YearCoche>2001</YearCoche>
+                <Ubicacion>Barcelona</Ubicacion>
+            </Caracteristicas>
+            <Publicacion>
+                <Fecha>21/10</Fecha>
+                <Hora>11:22</Hora>
+            </Publicacion>
+        </Coche>
+    </Coches>
+    
+    <!-- Posibles Compradores -->
+    <Compradores>
+        <Comprador>
+            <NombreComprador>
+                Jordi
+                <Apellidos>Perez Garcia</Apellidos>
+            </NombreComprador>
+            <DNI>4865145R</DNI>
+        </Comprador>
+        <Comprador>
+            <NombreComprador>
+                Adrian
+                <Apellidos>Sancho Fernandez</Apellidos>
+            </NombreComprador>
+            <DNI>8551453J</DNI>
+        </Comprador>
+    </Compradores>
+</VentaDeCoches>

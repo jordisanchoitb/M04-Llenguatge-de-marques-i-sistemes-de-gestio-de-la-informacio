@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="minerals.xsl"?>
+<?xml-stylesheet href="minerals.css"?>
+<minerals>
+	<mineral Id="1">
+		<nom>AERINITA</nom>
+		<duressa>3</duressa>
+		<densitat>2.5</densitat>
+		<composicio>Silicat de composició i estructura poc definides.</composicio>
+		<color>blau cel, blau fosc</color>
+		<grup>Silicat</grup>
+		<foto>m60.jpg</foto>
+	</mineral>
+	<mineral Id="2">
+		<nom>ALBITA</nom>
+		<duressa>6</duressa>
+		<densitat>2.6</densitat>
+		<composicio>NaAlSi3O8</composicio>
+		<color>Blanc</color>
+		<grup>Tectosilicat</grup>
+		<foto>m72.jpg</foto>
+	</mineral>
+	<mineral Id="3">
+		<nom>ALMANDINA</nom>
+		<duressa>6,5-7,5</duressa>
+		<densitat>4.2</densitat>
+		<composicio>Fe3Al2(SiO4)3</composicio>
+		<color>vermell fosc-vermell marró</color>
+		<grup>Neosilicat (granat)</grup>
+		<foto>m76.jpg</foto>
+	</mineral>
+	<mineral Id="4">
+		<nom>ANAPAÏTA</nom>
+		<duressa>3,5</duressa>
+		<densitat>2.8</densitat>
+		<composicio>(Ca,Fe)3P2O8.4H2O</composicio>
+		<color>Verd-oliva</color>
+		<grup></grup>
+		<foto>m57.jpg</foto>
+	</mineral>
+	<mineral Id="5">
+		<nom>ANATASA</nom>
+		<duressa>5,5-6</duressa>
+		<densitat>3.9</densitat>
+		<composicio>TiO2</composicio>
+		<color>Blau, gris, vermell, blau-fosc</color>
+		<grup>Òxids</grup>
+		<foto>m68.jpg</foto>
+	</mineral>
+	<mineral  Id="6">
+		<nom>ANDALUSITA</nom>
+		<duressa>7,5</duressa>
+		<densitat>3.2</densitat>
+		<composicio>Al2(SiO4)O</composicio>
+		<color>gris, marró, rosa, verd</color>
+		<grup>Neosilicat</grup>
+		<foto>m68.jpg</foto>
+	</mineral>
+	<mineral  Id="7">
+		<nom>ANDRADITA</nom>
+		<duressa>6,5-7,5</duressa>
+		<densitat>3.9</densitat>
+		<composicio>Mg3Al2(SiO4)3</composicio>
+		<color>gris verdós-marró negrós</color>
+		<grup>Neosilicat (granat)</grup>
+		<foto>m68.jpg</foto>
+	</mineral>
+	<mineral  Id="8">
+		<nom>ANGLESITA</nom>
+		<duressa>3</duressa>
+		<densitat>6.3</densitat>
+		<composicio>PbSO4</composicio>
+		<color>incolor, blanc</color>
+		<grup>Sulfats</grup>
+		<foto>m50.jpg</foto>
+	</mineral>
+	<mineral  Id="9">
+		<nom>ANKERITA</nom>
+		<duressa>3,5</duressa>
+		<densitat>3</densitat>
+		<composicio>CaFe(CO3)2</composicio>
+		<color>Gris, marrò clar, beige, rosa.</color>
+		<grup></grup>
+		<foto>m54.jpg</foto>
+	</mineral>
+	<mineral Id="10">
+		<nom>ARAGONITA</nom>
+		<duressa>3,5 a 4</duressa>
+		<densitat>2.95</densitat>
+		<composicio>Ca CO3</composicio>
+		<color>variat o incolor</color>
+		<grup>Carbonats</grup>
+		<foto>m55.jpg</foto>
+	</mineral>
+	<mineral Id="11">
+		<nom>ARGENT</nom>
+		<duressa>2,5-3</duressa>
+		<densitat>10,5</densitat>
+		<composicio>Ag</composicio>
+		<color>Blanc plata</color>
+		<grup>Nadius</grup>
+		<foto>m11.jpg</foto>
+	</mineral>
+	<mineral Id="12">
+		<nom>ARGENTITA</nom>
+		<duressa>1-1,5</duressa>
+		<densitat>2.3</densitat>
+		<composicio>Ag2S</composicio>
+		<color>negre</color>
+		<grup>Sulfurs</grup>
+		<foto>m03.jpg</foto>
+	</mineral>
+	<mineral Id="13">
+		<nom>ARSENOPIRITA</nom>
+		<duressa>5-5,5</duressa>
+		<densitat>6.1</densitat>
+		<composicio>FeAsS</composicio>
+		<color>gris argent</color>
+		<grup>Sulfurs</grup>
+		<foto>m24.jpg</foto>
+	</mineral>
+</minerals>

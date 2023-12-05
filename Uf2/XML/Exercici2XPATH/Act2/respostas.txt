@@ -1,0 +1,32 @@
+1- Retorna la humitat relativa de demà passat.
+/root/prediccion/dia[@fecha='2023-11-11']/humedad_relativa
+
+//dia[@fecha='2023-11-11']/humedad_relativa
+
+2- La data de l'últim de dia que tenim predicció
+/root/prediccion/dia[last()]/@fecha
+
+//dia[last()]/@fecha
+
+3- Les temperatura mínimes majors de 10o
+/root/prediccion/dia[temperatura[minima>10]]/temperatura/minima
+
+//dia[temperatura[minima>10]]/temperatura/minima
+
+
+4- Les temperatures mínimes més grans que 2º o menors que 9º
+/root/prediccion/dia[temperatura[minima > 2 and minima < 12]]/temperatura/minima
+
+//dia[temperatura[minima > 2 and minima < 12]]/temperatura/minima
+
+5- Retorna les dates que tinguin definida una racha_max
+/root/prediccion/dia[racha_max]/@fecha
+
+//dia[racha_max]/@fecha
+
+
+6- Retorna les dates dels dies on el estado_cielo sigui poc ennuvolat entre les 6 del
+matí i les 12 de la nit
+/root/prediccion/dia[estado_cielo[@descripcion = 'Poco nuboso' and @periodo='00-24']]/@fecha
+
+//dia[estado_cielo[@descripcion = 'Poco nuboso' and (@periodo='06-12' or @periodo='12-18' or @periodo='18-24')]]/@fecha

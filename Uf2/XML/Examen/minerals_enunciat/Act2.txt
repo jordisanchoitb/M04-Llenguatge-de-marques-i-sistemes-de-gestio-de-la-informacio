@@ -1,0 +1,22 @@
+2- Escriu a continuació el codi xpath que permet trobar les següents dades. (50%)
+
+
+A. Obté en format text el mineral que tenen una densitat superior a 5
+/minerals[/mineral/densitat>5]/mineral
+
+
+B. ¿Quin mineral conté la lletra k?
+/minerals/mineral[contains(nom,'K')]
+
+
+C. Quants minerals pertanyen al grup de sulfurs?
+/minerals/mineral[grup = 'Sulfurs']
+
+
+D. Mostra el node sencer del penúltim mineral
+/minerals/mineral[last()-1]
+
+
+E. Quants minerals hi ha? Fes una consulta que et retorni el nombre total de
+minerals
+/minerals/count(mineral)

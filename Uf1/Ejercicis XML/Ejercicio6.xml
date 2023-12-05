@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<persones>
+    <persona>
+        <nom>Alba Casamitjana</nom>
+        <viu>Parets del Vallès</viu>
+        <info_adicional>M'encanta el Pans&amp;Company.</info_adicional>
+    </persona>
+    <persona>
+        <nom>Joana Puig</nom>
+        <viu>Mollet</viu>
+        <info_adicional><![CDATA["Si x>y, y>z i z<q, es q>x)".]]></info_adicional>
+        <!--Anota en un comentari que la Joana Puig ho va dir el 2016.-->
+    </persona>
+</persones>
